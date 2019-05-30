@@ -1,0 +1,156 @@
+2019-05-31 01:04:33,893 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [event=success,timestamp=Fri May 31 01:04:33 CST 2019,source=RankedAuthenticationProviderWebflowEventResolver]
+ACTION: AUTHENTICATION_EVENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:33 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:41,999 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: Supplied credentials: [UsernamePasswordCredential(username=admin)]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:41 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:42,144 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: TGT-1-********************************************************y6Z3uZVl-G8MacBookProOfDreamLi
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:42 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:44,270 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: TGT-1-********************************************************y6Z3uZVl-G8MacBookProOfDreamLi
+ACTION: TICKET_GRANTING_TICKET_DESTROYED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:44 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:51,553 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [event=success,timestamp=Fri May 31 01:04:51 CST 2019,source=RankedAuthenticationProviderWebflowEventResolver]
+ACTION: AUTHENTICATION_EVENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:51 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:57,080 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: Supplied credentials: [UsernamePasswordCredential(username=admin)]
+ACTION: AUTHENTICATION_SUCCESS
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:57 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:57,094 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: [result=Service Access Granted,service=http://localhost:80/,principal=SimplePrincipal(id=admin, attributes={}),requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:57 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:57,098 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: [result=Service Access Granted,service=http://localhost:80/,principal=SimplePrincipal(id=admin, attributes={}),requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:57 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:57,100 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: TGT-2-********************************************************Hoa3uXW3S9wMacBookProOfDreamLi
+ACTION: TICKET_GRANTING_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:57 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:57,109 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: [result=Service Access Granted,service=http://localhost:80/,requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:57 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:57,133 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-1-NLlgMzVJEHUHFxQG1-SnTVWkGFUMacBookProOfDreamLi for http://localhost:80/
+ACTION: SERVICE_TICKET_CREATED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:57 CST 2019
+CLIENT IP ADDRESS: 0:0:0:0:0:0:0:1
+SERVER IP ADDRESS: 0:0:0:0:0:0:0:1
+=============================================================
+
+
+2019-05-31 01:04:57,206 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: audit:unknown
+WHAT: [result=Service Access Granted,service=http://localhost:80/,principal=SimplePrincipal(id=admin, attributes={}),requiredAttributes={}]
+ACTION: SERVICE_ACCESS_ENFORCEMENT_TRIGGERED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:57 CST 2019
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+
+2019-05-31 01:04:57,213 INFO [org.apereo.inspektr.audit.support.Slf4jLoggingAuditTrailManager] - Audit trail record BEGIN
+=============================================================
+WHO: admin
+WHAT: ST-1-NLlgMzVJEHUHFxQG1-SnTVWkGFUMacBookProOfDreamLi
+ACTION: SERVICE_TICKET_VALIDATED
+APPLICATION: CAS
+WHEN: Fri May 31 01:04:57 CST 2019
+CLIENT IP ADDRESS: 127.0.0.1
+SERVER IP ADDRESS: 127.0.0.1
+=============================================================
+
+

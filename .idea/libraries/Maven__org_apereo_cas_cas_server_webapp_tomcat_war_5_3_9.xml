@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apereo.cas:cas-server-webapp-tomcat:war:5.3.9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apereo/cas/cas-server-webapp-tomcat/5.3.9/cas-server-webapp-tomcat-5.3.9.war!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apereo/cas/cas-server-webapp-tomcat/5.3.9/cas-server-webapp-tomcat-5.3.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apereo/cas/cas-server-webapp-tomcat/5.3.9/cas-server-webapp-tomcat-5.3.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
