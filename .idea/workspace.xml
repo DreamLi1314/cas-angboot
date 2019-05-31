@@ -2,10 +2,193 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca291996-050d-4036-a843-60723e6c2e2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/cas_overlay_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/cas_overlay_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/cas.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/cas.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/perfStats.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/perfStats.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cas-overlay.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9.info" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/apereo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/apereo.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/cas-theme-default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/cas-theme-default.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ar.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ca.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ca.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_de.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_de.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_es.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_es.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_fa.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_fa.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_fr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_hr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_hr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_it.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_it.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ja.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ja.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_mk.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_mk.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_nl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_nl.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_pl.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_pl.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_pt_BR.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_pt_BR.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_pt_PT.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_pt_PT.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ru.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_sk.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_sk.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_sv.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_sv.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_tr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_tr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ur.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_ur.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_zh_TW.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/messages_zh_TW.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/services/Apereo-10000002.json" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/services/Apereo-10000002.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/services/HTTPSandIMAPS-10000001.json" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/services/HTTPSandIMAPS-10000001.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/authnEvents.css" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/authnEvents.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/cas.css" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/cas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/consentReview.css" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/consentReview.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/loggingDashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/loggingDashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/ssosessions.css" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/ssosessions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/trustedDevices.css" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/css/trustedDevices.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/attrresolution.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/attrresolution.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/authnEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/authnEvents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/cas.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/cas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/consent.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/consent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/consentReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/consentReview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/duo/Duo-Web-v2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/duo/Duo-Web-v2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/loggingDashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/loggingDashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/passwordMeter.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/passwordMeter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/sockjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/sockjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/ssosessions.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/ssosessions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/statisticsview.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/statisticsview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/stomp.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/stomp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/trustedDevices.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/trustedDevices.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/u2f/u2f-api.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/u2f/u2f-api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/viewConfig.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/viewConfig.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/viewConfigMetadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/js/viewConfigMetadata.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/authnEvents.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/authnEvents.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/cas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/cas.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_alerts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_cas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_cas.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_dashboard-view.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_dashboard-view.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_login.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_statistics-view.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_statistics-view.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_tooltips.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_tooltips.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_view-configuration.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/components/_view-configuration.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/consentReview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/consentReview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/loggingDashboard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/loggingDashboard.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_opacity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_opacity.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_tab-focus.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_tab-focus.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_vendor-prefixes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/partials/_admin-panels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/partials/_admin-panels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/partials/_messages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/partials/_messages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/partials/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/partials/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/ssosessions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/ssosessions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/trustedDevices.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/trustedDevices.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/vendor/bootstrap-social/_bootstrap-social.scss" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/sass/vendor/bootstrap-social/_bootstrap-social.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/themes/apereo/css/cas.css" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/themes/apereo/css/cas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/themes/apereo/js/cas.js" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/static/themes/apereo/js/cas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAcceptableUsagePolicyView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAcceptableUsagePolicyView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAccountDisabledView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAccountDisabledView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAccountLockedView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAccountLockedView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAuthenticationBlockedView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAuthenticationBlockedView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAuthyLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAuthyLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAzureAuthenticatorLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casAzureAuthenticatorLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casBadHoursView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casBadHoursView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casBadWorkstationView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casBadWorkstationView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConfirmLogoutView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConfirmLogoutView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConfirmView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConfirmView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConsentLogoutView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConsentLogoutView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConsentReviewView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConsentReviewView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConsentView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casConsentView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casDuoLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casDuoLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casExpiredPassView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casExpiredPassView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGenericSuccessView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGenericSuccessView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGoogleAuthenticatorLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGoogleAuthenticatorLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGoogleAuthenticatorRegistrationView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGoogleAuthenticatorRegistrationView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGuaDisplayUserGraphicsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGuaDisplayUserGraphicsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGuaGetUserIdView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casGuaGetUserIdView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casInterruptView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casInterruptView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casLoginMessageView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casLoginMessageView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casLogoutView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casLogoutView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casMfaRegisterDeviceView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casMfaRegisterDeviceView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casMustChangePassView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casMustChangePassView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPac4jStopWebflow.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPac4jStopWebflow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPasswordUpdateSuccessView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPasswordUpdateSuccessView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPasswordlessDisplayView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPasswordlessDisplayView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPasswordlessGetUserIdView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPasswordlessGetUserIdView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPropagateLogoutView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casPropagateLogoutView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casRadiusLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casRadiusLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casResetPasswordErrorView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casResetPasswordErrorView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casResetPasswordSendInstructionsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casResetPasswordSendInstructionsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casResetPasswordSentInstructionsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casResetPasswordSentInstructionsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casResetPasswordVerifyQuestionsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casResetPasswordVerifyQuestionsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casRiskAuthenticationBlockedView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casRiskAuthenticationBlockedView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casServiceErrorView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casServiceErrorView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casSurrogateAuthnListView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casSurrogateAuthnListView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casSwivelLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casSwivelLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casU2fLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casU2fLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casU2fRegistrationView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casU2fRegistrationView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casWsFedStopWebflow.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casWsFedStopWebflow.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casYubiKeyLoginView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casYubiKeyLoginView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casYubiKeyRegistrationView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/casYubiKeyRegistrationView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/401.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/401.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/405.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/405.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/423.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/error/423.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/cas-resources-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/cas-resources-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/cookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/cookies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/defaultauthn.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/defaultauthn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/insecure.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/insecure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/loginProviders.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/loginProviders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/loginform.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/loginform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/loginsidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/loginsidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/pwdupdateform.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/pwdupdateform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/serviceui.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/fragments/serviceui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/mfaDeniedView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/mfaDeniedView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/mfaUnavailableView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/mfaUnavailableView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/attrresolution.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/attrresolution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/fragments/footerButtons.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/fragments/footerButtons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/fragments/logo.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/fragments/logo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/fragments/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/fragments/modal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/fragments/scripts.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/fragments/scripts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewAuthenticationEvents.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewAuthenticationEvents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewConfigMetadata.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewConfigMetadata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewDashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewDashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewLoggingConfig.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewLoggingConfig.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewSsoSessions.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewSsoSessions.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewStatistics.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewStatistics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewTrustedDevices.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/monitoring/viewTrustedDevices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/2.0/casProxyFailureView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/2.0/casProxyFailureView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/2.0/casProxySuccessView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/2.0/casProxySuccessView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/2.0/casServiceValidationFailure.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/2.0/casServiceValidationFailure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/2.0/casServiceValidationSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/2.0/casServiceValidationSuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/3.0/casServiceValidationFailure.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/3.0/casServiceValidationFailure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/3.0/casServiceValidationSuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/3.0/casServiceValidationSuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/casPostResponseView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/casPostResponseView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/oauth/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/oauth/confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/oidc/confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/oidc/confirm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/openid/casOpenIdAssociationSuccessView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/openid/casOpenIdAssociationSuccessView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/openid/casOpenIdServiceFailureView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/openid/casOpenIdServiceFailureView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/openid/casOpenIdServiceSuccessView.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/openid/casOpenIdServiceSuccessView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/openid/user.html" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/templates/protocol/openid/user.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/user-details.properties" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/user-details.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/webflow/login/login-webflow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/webflow/login/login-webflow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/webflow/logout/logout-webflow.xml" beforeDir="false" afterPath="$PROJECT_DIR$/overlays/org.apereo.cas.cas-server-webapp-tomcat-5.3.9/WEB-INF/classes/webflow/logout/logout-webflow.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,41 +243,44 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1895359238">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="sh" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2938">
-              <caret line="113" column="37" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/services/HTTPSandIMAPS-10000001.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            <state relative-caret-position="210">
+              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -117,8 +303,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/services/HTTPSandIMAPS-10000001.json" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -131,9 +317,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="mavenHome" value="$USER_HOME$/Software/apache-maven-3.5.3" />
-        <option name="userSettingsFile" value="$USER_HOME$/Software/apache-maven-3.5.3/conf/settings.xml" />
+        <option name="mavenHome" value="D:/InstallSoftware/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\InstallSoftware\apache-maven-3.5.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -147,21 +332,21 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cas-overlay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cas-angboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cas-overlay" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="cas-angboot" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="960" />
+    <option name="height" value="952" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,35 +354,40 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="cas-overlay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas-angboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="cas-angboot" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cas-overlay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas-angboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas-angboot" type="462c0819:PsiDirectoryNode" />
+              <item name="maven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cas-angboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="cas-angboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cas-overlay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas-angboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="cas-angboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cas-overlay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas-angboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="cas-angboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cas-overlay" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cas-angboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="cas-angboot" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -208,17 +398,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559236257481" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559285981044" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -237,6 +429,55 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="cas-angboot" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="cas-angboot" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -249,28 +490,29 @@
       <updated>1559226819889</updated>
       <workItem from="1559226823120" duration="1267000" />
       <workItem from="1559235165668" duration="1088000" />
+      <workItem from="1559269506566" duration="672000" />
+      <workItem from="1559282432804" duration="1619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2355000" />
+    <option name="totallyTimeSpent" value="4646000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="960" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536855" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32879817" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,6 +522,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -288,7 +531,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32985258" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32942432" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,40 +548,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2938">
-          <caret line="113" column="37" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
+        <state relative-caret-position="231">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/services/HTTPSandIMAPS-10000001.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
+        <state relative-caret-position="42">
           <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="113" column="37" selection-start-line="113" selection-start-column="37" selection-end-line="113" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="53" column="33" lean-forward="true" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>cas-overlay:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>groovy-2.5.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cas-angboot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.apereo.cas:cas-server-webapp-tomcat:war:5.3.9</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cas-overlay" />
+        <module name="cas-angboot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cas-overlay" target="1.8" />
+      <module name="cas-angboot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

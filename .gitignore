@@ -11,12 +11,9 @@ buildNumber.properties
 
 /logs
 .classpath
-!/.project
-.project
 .settings
 .idea/
 .DS_Store
-.idea
 overlays/
 .gradle/
 build/

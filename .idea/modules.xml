@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cas-overlay.iml" filepath="$PROJECT_DIR$/cas-overlay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cas-angboot.iml" filepath="$PROJECT_DIR$/cas-angboot.iml" />
     </modules>
   </component>
 </project>
